@@ -1,0 +1,4 @@
+  ros__parameters:
+    raw_lidar_topic_name: "/carla/ego_vehicle/lidar"  # Update this to match your LiDAR topic
+    lidar_cluster_topic_name: "/perception/lidar_cluster"
+    node_rate: 10   # [Hertz]
