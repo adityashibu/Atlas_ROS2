@@ -172,3 +172,76 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ROS 2 build directories
+build/
+install/
+log/
+
+# Python-specific
+*.py[cod]
+__pycache__/
+*.so
+.Python
+env/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# C++ specific
+*.o
+*.so
+*.a
+*.la
+*.lo
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# IDE and editor specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ROS specific
+.catkin_workspace
+.catkin_tools/
+.rosinstall
+
+# Colcon-specific
+.colcon_cd_root
+.colcon/
+
+# Bags
+*.bag
+*.bag.*
+rosbag*/
+
+# Log files
+*.log
+
+# Simulation specific
+*.world
+gazebo_models/
+models/
+worlds/
+meshes/
+
+# Backup files
+*~
+*.bak
